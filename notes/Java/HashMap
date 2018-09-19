@@ -1,0 +1,29 @@
+Java HashMap is a hash table based implementation of Java’s Map interface.
+- cannot contain duplicate keys
+- allows null value and null keys
+- unordered
+- not thread safe
+
+Constructor:
+    HashMap()
+    HashMap(Map m)
+    HashMap(int capacity)
+    HashMap(int capacity, float fillRatio)
+
+Method:
+    void clear()
+    Object clone()
+    boolean containsKey(Object key)
+    boolean containsValue(Object value)
+    Set entrySet()
+    Object get(Object key)
+    boolean isEmpty()
+    Set keySet()
+    Object put(Object key, Object value)
+    putAll(Map m)
+    Object remove(Object key)
+    int size()
+    Collection values()
+
+Iteration:
+    ./HashMapIteration.java
